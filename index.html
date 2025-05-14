@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wardrobe Genie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>👗 Wardrobe Genie</h1>
+    <p id="clock"></p>
+    <button id="theme-toggle">🌓 Toggle Theme</button>
+  </header>
+
+  <main>
+    <section class="controls">
+      <label for="vibe">Today's vibe:</label>
+      <select id="vibe">
+        <option value="casual">Casual</option>
+        <option value="formal">Formal</option>
+        <option value="date">Date</option>
+        <option value="chill">Chill</option>
+        <option value="sunny">Sunny Day</option>
+        <option value="rainy">Rainy</option>
+      </select>
+      <button onclick="generateOutfit()">✨ Generate Outfit</button>
+    </section>
+
+    <section id="recommendation" class="card hidden">
+      <h2>Your Outfit Genie Recommends:</h2>
+      <p id="outfit-text"></p>
+      <button onclick="saveFavorite()">💾 Save to Favorites</button>
+    </section>
+
+    <section id="favorites">
+      <h3>❤️ Your Favorites</h3>
+      <ul id="fav-list"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
