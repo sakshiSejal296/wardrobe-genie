@@ -22,11 +22,6 @@ Wardrobe Genie is your personal styling assistant — helping you decide *what t
 - **Local Storage** – For saving wardrobe and user preferences
 
 ---
-
-## 📸 Screenshots
-
-> *(Add screenshots here once hosted — use GitHub issue upload or link to them via GitHub repo images)*
-
 ---
 
 ## 🚀 Getting Started
