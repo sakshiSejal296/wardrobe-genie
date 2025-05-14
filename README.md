@@ -29,5 +29,5 @@ Wardrobe Genie is your personal styling assistant — helping you decide *what t
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/wardrobe-genie.git
+git clone https://github.com/sakshiSejal296/wardrobe-genie.git
 cd wardrobe-genie
